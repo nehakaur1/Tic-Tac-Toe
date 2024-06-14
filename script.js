@@ -48,7 +48,7 @@ let showwinner = (pos1value) => {
   msgpara.innerText = `congratulations,Winner is ${pos1value}`;
   msgcontainer.classList.remove("hide");
   disablebtn();
-  // counter=0;
+  counter=0;
 };
 let draw = () => {
   msgpara.innerText = "This was Draw";
